@@ -4,7 +4,6 @@ import ethers from "ethers";
 //Importing and configuring our .env file that we use to securely store our environment variables
 import dotenv from "dotenv";
 dotenv.config();
-console.log(process.env)
 // Some quick checks to make sure our .env is working.
 if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY == "") {
   console.log("🛑 Private key not found.")
