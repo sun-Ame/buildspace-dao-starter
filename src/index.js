@@ -14,8 +14,6 @@ const supportedChainIds = [4];
 const connectors = {
   injected: {},
 };
-console.log("dddd=-=-=", process.env)
-
 // Finally, wrap App with ThirdwebWeb3Provider.
 ReactDOM.render(
   <React.StrictMode>
